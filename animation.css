@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn button{
+    font-size: 3rem;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    border: 4px solid;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+    transition: transform 0.3s;
+
+}
+.btn:hover{
+    transform: translateX(-10px);
+    cursor: pointer;
+
+}
